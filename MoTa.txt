@@ -1,0 +1,2 @@
+Short: A action game pixel 2d deafeat all enemy
+Full: Creatures in the world are mutated, defeat any creature that comes near you don't let them touch you or you will be defeated and the game is over
