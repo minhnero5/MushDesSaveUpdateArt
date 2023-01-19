@@ -17,6 +17,7 @@ public class ShopManager : MonoBehaviour
         {
             Content.SetActive(true);
         }
+        Content.SetActive(true);
     }
 
     public void Hide()

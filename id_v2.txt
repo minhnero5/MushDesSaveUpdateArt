@@ -1,0 +1,10 @@
+moonhostu_1.1|Pack[+10 Dmg]|Buy Pack [+10 Dmg]|1$
+moonhostu_1.2|Pack[+20 Dmg]|Buy Pack [+20 Dmg]2$
+moonhostu_1.3|Pack[+30 Dmg]|Buy Pack [+30 Dmg]3$
+moonhostu_1.4
+moonhostu_1.5|Pack[+50 Dmg]|Buy Pack [+50 Dmg]5$
+moonhostu_1.6
+moonhostu_1.7|Pack[+70 Dmg]|Buy Pack [+70 Dmg]7$
+moonhostu_1.8|Pack[+80 Dmg]|Buy Pack [+80 Dmg]10$
+moonhostu_sub_2.1
+moonhostu_sub_2.2

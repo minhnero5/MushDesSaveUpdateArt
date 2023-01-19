@@ -18,4 +18,8 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex);
     }
+    public void PressPrivacyTerm(string link)
+    {
+        Application.OpenURL(link);
+    }
 }
