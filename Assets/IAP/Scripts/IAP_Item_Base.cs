@@ -38,16 +38,16 @@ public class IAP_Item_Base : MonoBehaviour
 
     void OnUpdateItem()
     {
-        //check available to purchase item
-        if (IAP_Manager.CanShowItem(IAP_Manager.id[productID]))
-        {
-            tmpPrice.text = IAP_Manager.GetPrice(IAP_Manager.id[productID]);
-            tmpName.text = IAP_Manager.GetName(IAP_Manager.id[productID]);
-        }
-        else
-        {
-            //this.gameObject.SetActive(false);
-        }
+        ////check available to purchase item
+        //if (IAP_Manager.CanShowItem(IAP_Manager.id[productID]))
+        //{
+        //    tmpPrice.text = IAP_Manager.GetPrice(IAP_Manager.id[productID]);
+        //    tmpName.text = IAP_Manager.GetName(IAP_Manager.id[productID]);
+        //}
+        //else
+        //{
+        //    //this.gameObject.SetActive(false);
+        //}
     }
 
     private void Buy()

@@ -1,1 +1,1 @@
-Update Art, Shop, Price.
+Update Art, Shop, Price, xoá tên app trong shop.
