@@ -8,6 +8,7 @@ public class IAP_Manager : MonoBehaviour, IStoreListener
 {
     private static IStoreController m_StoreController;
     private static IExtensionProvider m_StoreExtensionProvider;
+    public IAppCus iappCus;
 
     List<IAP_Product> _arrProducts = new List<IAP_Product>();
 
@@ -204,7 +205,7 @@ public class IAP_Manager : MonoBehaviour, IStoreListener
 
                 Debug.Log(string.Format("Purchasing product asychronously: '{0}'", product.definition.id));
                 m_StoreController.InitiatePurchase(product);
-                CoinManager.Instance.AddDmg(productIndex * 10);
+                iappCus.IAPEvent(productIndex + 1);
             }
             else
             {

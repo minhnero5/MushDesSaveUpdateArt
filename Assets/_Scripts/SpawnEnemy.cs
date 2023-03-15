@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnEnemy : MonoBehaviour
 {
-    public GameObject enemy;
+    public GameObject[] enemy;
     public Vector2 spawnArea;
     public float spawnTimer;
     float timer;
@@ -21,8 +21,9 @@ public class SpawnEnemy : MonoBehaviour
     }
     public void spawn()
     {
+        int randomIndex = Random.Range(0, enemy.Length);
         Vector3 position = RandomPosition();
-        GameObject newEnemy = Instantiate(enemy);
+        GameObject newEnemy = Instantiate(enemy[randomIndex]);
         newEnemy.transform.position = position;
     }
     public Vector3 RandomPosition()

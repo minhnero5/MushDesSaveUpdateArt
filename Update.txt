@@ -1,1 +1,1 @@
-Update Art, Shop, Price, xoá tên app trong shop.
+1.2: Thêm score, highscore, knockback enemy, 2 gói trong shop, enemy.

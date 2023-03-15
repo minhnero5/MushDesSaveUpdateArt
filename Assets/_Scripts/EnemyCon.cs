@@ -45,7 +45,31 @@ public class EnemyCon : MonoBehaviour
     }
     public void takeDmg(float dmg)
     {
-        if (curHP > 0) curHP -= dmg;
-        if (curHP <= 0) Destroy(gameObject);
+        if (curHP > 0)
+        {
+            curHP -= dmg;
+            Debug.Log(dmg);
+            KnockBack();
+        }
+
+        if (curHP <= 0)
+        {
+            Score.Instance.score += 1;
+            Destroy(gameObject);
+        }
+
+
+    }
+
+    public void KnockBack()
+    {
+        if (transform.position.x < target.transform.position.x)
+            transform.position = new Vector3(transform.position.x - 0.5f, transform.position.y, 0);
+        if (transform.position.x >= target.transform.position.x)
+            transform.position = new Vector3(transform.position.x + 0.5f, transform.position.y, 0);
+        if (transform.position.y < target.transform.position.y)
+            transform.position = new Vector3(transform.position.x, transform.position.y - 0.5f, 0);
+        if (transform.position.y >= target.transform.position.y)
+            transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, 0);
     }
 }

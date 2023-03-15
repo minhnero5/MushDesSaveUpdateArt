@@ -23,7 +23,6 @@ public class WeapCOn : MonoBehaviour
         {
             EnemyCon enemy = collision.gameObject.GetComponent<EnemyCon>();
             enemy.takeDmg(attackDmg);
-            Debug.Log(attackDmg);
         }    
     }
     IEnumerator CoolDownAttack()

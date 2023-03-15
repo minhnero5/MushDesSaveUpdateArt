@@ -1,0 +1,9 @@
+Product ID,Published State,Purchase Type,Auto Translate,Locale; Title; Description,Auto Fill Prices,Price,Pricing Template ID
+moonhostu_1.1,published,managed_by_android,FALSE,vi;Pack[10 Dmg];Buy Pack[10 Dmg],TRUE,24000000000,
+moonhostu_1.2,published,managed_by_android,FALSE,vi;Pack[20 Dmg];Buy Pack[20 Dmg],TRUE,50000000000,
+moonhostu_1.3,published,managed_by_android,FALSE,vi;Pack[30 Dmg];Buy Pack[30 Dmg],TRUE,70000000000,
+moonhostu_1.4,published,managed_by_android,FALSE,vi;Donate 5$;Donate 5$,TRUE,120000000000,
+moonhostu_1.5,published,managed_by_android,FALSE,vi;Pack[50 Dmg];Buy Pack[50 Dmg],TRUE,165000000000,
+moonhostu_1.6,published,managed_by_android,FALSE,vi;Donate 50$;Donate 50$,TRUE,1180000000000,
+moonhostu_1.7,published,managed_by_android,FALSE,vi;Pack[70 Dmg];Buy Pack[70 Dmg],TRUE,235000000000,
+moonhostu_1.8,published,managed_by_android,FALSE,vi;Pack[100 Dmg];Buy Pack[100 Dmg],TRUE,2350000000000,
