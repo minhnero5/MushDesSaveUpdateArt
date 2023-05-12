@@ -1,1 +1,2 @@
 1.2: Thêm score, highscore, knockback enemy, 2 gói trong shop, enemy.
+1.3: Sửa giá trong shop theo định dạng 0,99
