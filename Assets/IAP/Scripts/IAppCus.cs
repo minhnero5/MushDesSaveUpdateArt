@@ -6,6 +6,7 @@ public class IAppCus : MonoBehaviour
 {
     public void IAPEvent(int id)
     {
+        AdsMan_Custom adsMan_ = GetComponent<AdsMan_Custom>();
         switch (id)
         {
             case 1:
@@ -38,7 +39,36 @@ public class IAppCus : MonoBehaviour
                 CoinManager.Instance.AddDmg(100);
                 Debug.Log("100");
                 break;
-
+            case 9:
+                adsMan_.ReAdsWeek();
+                break;
+            case 10:
+                adsMan_.ReAdsWeek();
+                break;
+            case 11:
+                adsMan_.ReAdsWeek();
+                break;
+            case 12:
+                adsMan_.ReAdsWeek();
+                break;
+            case 13:
+                adsMan_.ReAdsWeek();
+                break;
+            case 14:
+                adsMan_.ReAdsWeek();
+                break;
+            case 15:
+                adsMan_.ReAdsWeek();
+                break;
+            case 16:
+                adsMan_.ReAdsWeek();
+                break;
+            case 17:
+                adsMan_.ReAdsWeek();
+                break;
+            case 18:
+                adsMan_.ReAdsWeek();
+                break;
         }
     }
 

@@ -25,7 +25,15 @@ public class IAP_Manager : MonoBehaviour, IStoreListener
         "moonhostu_1.7",
         "moonhostu_1.8",
         "moonhostu_sub_2.1",
-        "moonhostu_sub_2.2"
+        "moonhostu_sub_2.2",
+        "moonhostu_sub_2.3",
+        "moonhostu_sub_2.4",
+        "moonhostu_sub_2.5",
+        "moonhostu_sub_2.6",
+        "moonhostu_sub_2.7",
+        "moonhostu_sub_2.8",
+        "moonhostu_sub_2.9",
+        "moonhostu_sub_2.10"
     };
 
     void Start()
